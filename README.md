@@ -2,6 +2,20 @@
 
 Install the official Claude Code Linux ARM64 release on Android Termux with the compatibility patches required for `aarch64`.
 
+## Install
+
+Installation via npm is deprecated. Use the one-shot installer below in Termux:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/dextune/claude-code-termux/main/install-claude-code-termux.sh | sh
+```
+
+Or, if you already cloned this repository:
+
+```sh
+sh ./install-claude-code-termux.sh
+```
+
 ```text
 +------------------------------------------------------------+
 | Claude Code for Termux                                     |
@@ -57,19 +71,7 @@ This Termux installer keeps that trust path intact:
 
 The script installs its own package dependencies through `pkg`, including `curl`, `git`, `jq`, `gnupg`, `glibc-runner`, and `patchelf-glibc`.
 
-## Install
-
-Installation via npm is deprecated. Use the one-shot installer below in Termux:
-
-```sh
-curl -fsSL https://raw.githubusercontent.com/dextune/claude-code-termux/main/install-claude-code-termux.sh | sh
-```
-
-Or, if you already cloned this repository:
-
-```sh
-sh ./install-claude-code-termux.sh
-```
+## Installer output
 
 The installer displays a Claude Code-style terminal screen and numbered progress steps:
 
