@@ -17,15 +17,13 @@ sh ./install-claude-code-termux.sh
 ```
 
 ```text
-+------------------------------------------------------------+
-| Claude Code for Termux                                     |
-| Secure installer for Android aarch64                       |
-+------------------------------------------------------------+
-| Target version : 2.1.193                                  |
-| Platform       : linux-arm64                              |
-| Install path   : .../versions/2.1.193                    |
-| Launcher       : .../usr/bin/claude                       |
-+------------------------------------------------------------+
+Claude Code for Termux
+Secure installer for Android aarch64
+
+Target version : 2.1.193
+Platform       : linux-arm64
+Install path   : .../versions/2.1.193
+Launcher       : .../usr/bin/claude
 ```
 
 ## Version status
@@ -76,15 +74,13 @@ The script installs its own package dependencies through `pkg`, including `curl`
 The installer displays a Claude Code-style terminal screen and numbered progress steps:
 
 ```text
-+------------------------------------------------------------+
-| Claude Code for Termux                                     |
-| Secure installer for Android aarch64                       |
-+------------------------------------------------------------+
-| Target version : 2.1.193                                  |
-| Platform       : linux-arm64                              |
-| Install path   : .../versions/2.1.193                    |
-| Launcher       : .../usr/bin/claude                       |
-+------------------------------------------------------------+
+Claude Code for Termux
+Secure installer for Android aarch64
+
+Target version : 2.1.193
+Platform       : linux-arm64
+Install path   : .../versions/2.1.193
+Launcher       : .../usr/bin/claude
 
 [01/12] Installing required Termux packages
          done: Required Termux packages are installed.
@@ -93,13 +89,11 @@ The installer displays a Claude Code-style terminal screen and numbered progress
 2.1.193 (Claude Code)
          done: Claude Code 2.1.193 is installed successfully.
 
-+------------------------------------------------------------+
-| Installation complete                                      |
-+------------------------------------------------------------+
-| Claude Code version 2.1.193 has been installed.           |
-| Command: claude                                           |
-| Path   : .../usr/bin/claude                               |
-+------------------------------------------------------------+
+Installation complete
+
+Claude Code version 2.1.193 has been installed.
+Command: claude
+Path   : .../usr/bin/claude
 ```
 
 ## Installed files
@@ -159,14 +153,12 @@ sh ./uninstall-claude-code-termux.sh
 The uninstaller also displays a terminal screen and numbered progress steps:
 
 ```text
-+------------------------------------------------------------+
-| Claude Code for Termux                                     |
-| Uninstaller                                                |
-+------------------------------------------------------------+
-| Target version : 2.1.193                                  |
-| Install path   : .../versions/2.1.193                    |
-| Launcher       : .../usr/bin/claude                       |
-+------------------------------------------------------------+
+Claude Code for Termux
+Uninstaller
+
+Target version : 2.1.193
+Install path   : .../versions/2.1.193
+Launcher       : .../usr/bin/claude
 
 [01/06] Removing deprecated npm-based Claude Code package
          done: npm package cleanup completed.

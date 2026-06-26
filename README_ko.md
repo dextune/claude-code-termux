@@ -26,15 +26,13 @@ sh ./install-claude-code-termux.sh
 설치 화면은 터미널 텍스트 그래픽과 단계 번호로 표시됩니다.
 
 ```text
-+------------------------------------------------------------+
-| Claude Code for Termux                                     |
-| Secure installer for Android aarch64                       |
-+------------------------------------------------------------+
-| Target version : 2.1.193                                  |
-| Platform       : linux-arm64                              |
-| Install path   : .../versions/2.1.193                    |
-| Launcher       : .../usr/bin/claude                       |
-+------------------------------------------------------------+
+Claude Code for Termux
+Secure installer for Android aarch64
+
+Target version : 2.1.193
+Platform       : linux-arm64
+Install path   : .../versions/2.1.193
+Launcher       : .../usr/bin/claude
 
 [01/12] Installing required Termux packages
          done: Required Termux packages are installed.
