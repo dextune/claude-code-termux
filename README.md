@@ -1,6 +1,6 @@
 # Claude Code for Termux
 
-Install the official Claude Code Linux ARM64 release on Android Termux with the compatibility patches required for `aarch64`.
+This script is for Android Termux only. It installs Claude Code from Anthropic's official repository and signed release path, then applies the compatibility patches required to run it on Termux `aarch64`.
 
 ## Install
 

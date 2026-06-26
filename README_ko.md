@@ -1,6 +1,6 @@
 # Termux용 Claude Code 설치 도구
 
-Android Termux `aarch64` 환경에서 공식 Claude Code Linux ARM64 릴리스를 설치하기 위한 스크립트입니다.
+이 스크립트는 Android Termux 전용입니다. Anthropic 공식 레파지토리와 서명된 릴리스 경로에서 Claude Code를 설치한 뒤, Termux `aarch64` 환경에서 실행되도록 호환성 패치를 적용합니다.
 
 ## 버전 상태
 
